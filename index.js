@@ -4,6 +4,5 @@ module.exports = {
     "import/order": ["error", { "newlines-between": "always", groups: [["builtin", "external"]] }],
     "object-shorthand": "error",
     "prefer-const": ["error"],
-    "prettier/prettier": ["error", { "printWidth": 120 }]
   }
 };
