@@ -1,6 +1,8 @@
 # Install dependencies
 
-npm install --save-exact --save-dev \
+set -euxo pipefail
+
+npm install --save-exact \
   bytearcher/eslint-config-cra \
   eslint-config-prettier \
   eslint-plugin-import \
