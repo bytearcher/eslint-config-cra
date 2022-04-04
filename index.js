@@ -5,5 +5,6 @@ module.exports = {
     "object-shorthand": "error",
     "prefer-const": ["error"],
     eqeqeq: ["error"],
+    "func-style": ["error", "declaration", { allowArrowFunctions: false }],
   }
 };
