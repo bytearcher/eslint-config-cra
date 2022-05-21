@@ -6,5 +6,6 @@ module.exports = {
     "prefer-const": ["error"],
     eqeqeq: ["error"],
     "func-style": ["error", "declaration", { allowArrowFunctions: false }],
+    "react/jsx-curly-brace-presence": ["error", "never"],
   }
 };
